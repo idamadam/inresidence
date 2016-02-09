@@ -75,9 +75,10 @@ nav .link {
   text-align: center;
 }
 
-.article-type li {
+.article-type a {
   visibility: hidden;
   opacity: 0;
+  color: ;
 }
 
 .tag-1 > .tag-1, .tag-2 > .tag-2, .tag-3 > .tag-3 {
