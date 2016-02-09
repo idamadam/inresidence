@@ -123,10 +123,17 @@ nav .article-navigation {
   height: 150px;
   width: 100%;
 }
-.home-article-type {
+
+.home-article-type > a {
+  font-size: 1.334em;
+  color: #552014;
+}
+
+.has-image .home-article-type {
   position: absolute;
 }
-.home-article-type > a {
+
+.has-image .home-article-type > a {
   font-size: 1.334em;
   color: white;
 }
