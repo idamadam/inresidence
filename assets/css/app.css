@@ -71,6 +71,10 @@ nav .link {
   font-family: "Publico";
 }
 
+nav .link a:hover {
+  text-decoration: underline;
+}
+
 .article-type {
   text-align: center;
 }
