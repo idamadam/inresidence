@@ -28,25 +28,25 @@ html, body {
 #bottom { bottom: 0; margin-bottom: 10px;}
 
 body {
-  font-family: "Publico Text";
+  font-family: "web-PublicoText";
   min-height: 100%;
   font-size: 14px;
   color: #2D2D2D;
 }
 
 h1.home-intro {
-  font-family: "Publico";
-  font-weight: lighter;
+  font-family: "web-Publico";
+  font-weight: bolder;
   color: #343434;
   font-size: 2.143em;
 }
 
 h1.article-header {
-  font-family: "Brown";
+  font-family: "web-Brown";
   font-weight: lighter;
   font-size: 3.429em;
 }
-h2, h3, h4, h5 { font-family: "Brown"; font-weight: lighter;}
+h2, h3, h4, h5 { font-family: "web-Brown"; font-weight: lighter;}
 h2 {
   font-size: 2.286em;
 }
@@ -61,14 +61,14 @@ p.article-byline {
 }
 
 .brand {
-  font-family: "Brown";
+  font-family: "web-Brown";
   font-size: 1.429em;
 }
 
 nav .link {
   font-size: 1.286em;
   font-weight: lighter;
-  font-family: "Publico";
+  font-family: "web-Publico";
 }
 
 nav .link a:hover {
@@ -106,7 +106,7 @@ nav .link a:hover {
 }
 
 nav .article-navigation {
-  font-family: "Publico";
+  font-family: "web-Publico";
   text-align: right;
   font-size: 1.357em;
   font-weight: lighter;
@@ -153,6 +153,7 @@ nav .article-navigation {
 }
 
 .home-article-link {
+  font-family: "web-PublicoText-Semi";
   font-style: italic;
 }
 
