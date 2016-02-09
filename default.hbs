@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+
+    {{! Page Meta}}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{! Styles }}
+    <link rel="stylesheet" href="{{asset "css/basscss.css"}}">
+    <link rel="stylesheet" href="{{asset "css/app.css"}}">
+
+    {{ghost_head}}
+  </head>
+  <body class="{{body_class}}">
+
+    {{! Border for in Residence Branding}}
+    <div id="left" class="md-show"></div><div id="right" class="md-show"></div><div id="top"  class="md-show"></div><div id="bottom"  class="md-show"></div>
+
+    <div class="container">
+      <div class="clearfix px2">
+
+        {{{body}}}
+
+      </div>
+    </div>
+
+  {{! Ghost outputs important scripts and data with this tag }}
+  {{ghost_foot}}
+
+  </body>
+</html>

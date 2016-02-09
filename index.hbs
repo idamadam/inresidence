@@ -1,0 +1,23 @@
+{{!< default}}
+{{! Tag above is for importing into the {body} tag of the default.hbs template}}
+
+{{! Navigation style for the front facing pages}}
+{{> "front-navigation"}}
+
+{{! Blog Description Header}}
+<header>
+  <div class="lg-col lg-col-4 lg-show">
+    <h1 class="home-intro">We are</h1>
+  </div>
+  <div class="sm-col sm-col-12 lg-col-8 mb2">
+    <h1 class="home-intro">{{@blog.description}}</h1>
+  </div>
+</header>
+
+<main id="content" class="content container" role="main">
+  <div class="clearfix mxn3">
+
+  {{> "loop"}}
+
+  </div>
+</main>

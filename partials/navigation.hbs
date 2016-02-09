@@ -1,0 +1,28 @@
+<nav class="clearfix orange mt2">
+  <div class="col col-6 sm-col-4 brand">
+    <a href="/" class="btn">in residence</a>
+  </div>
+  <div class="sm-col sm-col-4 sm-show article-type link">
+    <ul class="list-reset article-type">
+      {{#foreach navigation}}
+        <li class="inline-block"><a href="{{url absolute="true"}}" class="btn nav-menu-link nav-{{slug}} {{#if current}}nav-current{{/if}}">{{label}}</a></li>
+      {{/foreach}}
+    </ul>
+  </div>
+</nav>
+
+{{!--         <nav class="clearfix orange mt2">
+          <div class="col col-6 sm-col-4 brand">
+            <a href="/" class="btn">in residence</a>
+          </div>
+          <div class="sm-col sm-col-4 sm-show article-type link">
+            <ul class="list-reset article-type">
+              <li class="inline-block active"><a href="/" class="btn">Essays</a></li>
+              <li class="inline-block"><a href="/" class="btn">Reviews</a></li>
+            </ul>
+          </div>
+          <div class="col col-right sm-col-4 article-navigation">
+            <a href="/" class="btn sm-show mt1">&#8604; Back</a>
+            <a href="/" class="btn sm-hide">Home &#8604; Essays</a>
+          </div>
+        </nav> --}}
