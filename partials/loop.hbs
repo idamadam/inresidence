@@ -1,6 +1,6 @@
 {{! This is the post loop - each post will be output using this markup }}
 {{#foreach posts}}
-<article class="sm-col sm-col-6 md-col-4 home-article px1 {{post_class}} {{#if image}}has-image{{/if}}">
+<article class="sm-col sm-col-6 md-col-4 home-article px1 {{post_class}} {{#if image}}has-image{{else}}no-image{{/if}}">
   {{!-- <a href="{{url}}"> --}}
     <header class="home-article-top">
       <div class="home-article-type mt2 ml3">{{tags limit="1" class="home-article-type py2 py3"}}</div>
