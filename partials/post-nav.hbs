@@ -6,12 +6,12 @@
 
   <div class="sm-col sm-col-4 sm-show article-type link {{#foreach tags limit="1"}}tag-{{id}}{{/foreach}} dark-orange">
     <a href="/tag/essays" class="btn tag-2 article-type-link">Essays</a>
-    <a href="/tag/essays" class="btn tag-1 article-type-link">Reviews</a>
+    <a href="/tag/reviews" class="btn tag-3 article-type-link">Reviews</a>
   </div>
 
   <div class="col col-right sm-col-4 article-navigation">
     <a href="/" class="btn sm-show mt1 orange">&#8604; Back</a>
-    <a href="/" class="btn sm-hide">Home &#8604; </a>
+    <a href="/" class="btn sm-hide ">Home &#8604; </a>
       {{#foreach tags}}
         <a href="{{url}}" title="{{name}}" class="sm-hide tag-{{id}} dark-orange">{{name}}</a>
       {{/foreach}}
