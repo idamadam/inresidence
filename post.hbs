@@ -1,10 +1,10 @@
 {{!< default}}
 {{! Tag above is for importing into the {body} tag of the default.hbs template}}
 
-{{navigation}}
-
-{{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
+{{! Everything inside the #post tags pulls data from the post }}
+
+{{> "post-nav"}}
 
 <main class="content article" role="main">
   <article class="sm-col sm-col-12 {{post_class}} {{#if image}}has-image{{/if}}">
