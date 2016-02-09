@@ -1,27 +1,10 @@
-<nav class="clearfix orange mt2">
-  <div class="col col-6 sm-col-4 brand">
+<nav class="clearfix mt2">
+  <div class="col col-6 sm-col-4 brand orange">
     <a href="/" class="btn">{{@blog.title}}</a>
   </div>
-  <div class="col col-right sm-col-8 link">
+  <div class="col col-right sm-col-8 link dark-orange">
     {{#foreach navigation}}
       <a href="{{url absolute="true"}}" class="btn nav-menu-link nav-{{slug}} {{#if current}}nav-current{{/if}}">{{label}}</a>
     {{/foreach}}
   </div>
 </nav>
-
-{{!-- <nav class="clearfix orange mt2">
-  <div class="col col-6 sm-col-4 brand">
-    <a href="/" class="btn">{{@blog.title}}</a>
-  </div>
-  <div class="sm-col sm-col-4 sm-show article-type link">
-    <ul class="list-reset article-type">
-      {{#foreach navigation}}
-        <li class="inline-block"><a href="{{url absolute="true"}}" class="btn nav-menu-link nav-{{slug}} {{#if current}}nav-current{{/if}}">{{label}}</a></li>
-      {{/foreach}}
-    </ul>
-  </div>
-  <div class="col col-right sm-col-4 article-navigation">
-    <a href="/" class="btn sm-show mt1">&#8604; Back</a>
-    {{#is "post"}}<a href="/" class="btn sm-hide">Home &#8604; {{tags limit="1"}}</a>{{/is}}
-  </div>
-</nav> --}}
