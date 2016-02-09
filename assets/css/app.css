@@ -80,19 +80,24 @@ nav .link {
   opacity: 0;
 }
 
-.article-type .active {
-  visibility: visible;
-  opacity: 1;`    x
-  position: absolute;
-}
-
-.article-type:hover li {
+.tag-1 > .tag-1, .tag-2 > .tag-2, .tag-3 > .tag-3 {
   visibility: visible;
   opacity: 1;
 }
 
-.article-type:hover .active {
+.article-type:hover a {
+  visibility: visible;
+  opacity: 1;
+  font-weight: lighter;
+}
+
+.article-type-link:hover {
+  text-decoration: underline;
+}
+
+.article-type:hover .tag-1,.article-type:hover .tag-2, .article-type:hover .tag-3, .article-type:hover .tag-4{
   position: relative;
+  padding-top: 0;
 }
 
 nav .article-navigation {
