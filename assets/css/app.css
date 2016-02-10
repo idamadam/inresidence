@@ -100,7 +100,6 @@ nav .link a:hover {
 }
 
 .article-type:hover .tag-1,.article-type:hover .tag-2, .article-type:hover .tag-3, .article-type:hover .tag-4{
-  position: relative;
   padding-top: 0;
 }
 
