@@ -51,6 +51,18 @@
 }
 
 @font-face {
+  font-family: 'web-Publico';
+  src: url('Publico-Medium.eot?') format('eot'),
+       url('Publico-Medium.woff2') format('woff2'),
+       url('Publico-Medium.woff') format('woff'),
+       url('Publico-Medium.otf')  format('opentype'),
+       url('Publico-Medium.ttf')  format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'web-PublicoText-Semi';
   src: url('PublicoText-SemiboldItalic.eot?') format('eot'),
        url('PublicoText-SemiboldItalic.woff2') format('woff2'),
