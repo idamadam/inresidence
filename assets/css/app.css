@@ -239,6 +239,10 @@ nav .article-navigation {
   text-align: center;
 }
 
+.social-icon {
+  height: 1.4em;
+}
+
 /*Progressive Enhancements*/
 @media screen and (min-width: 40em) {
   body {
