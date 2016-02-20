@@ -147,7 +147,7 @@ nav .link a:hover {
   text-decoration: underline;
 }
 
-blockquote {	
+blockquote {
   font-size: 1.2em;
   font-family: "web-PublicoText-Semi";
   font-style: italic;
@@ -226,11 +226,6 @@ nav .article-navigation {
 
 .has-image .home-article-type {
   position: absolute;
-}
-
-.has-image .home-article-type > a {
-  font-size: 1.334em;
-  color: white;
 }
 
 .home-article-link {
