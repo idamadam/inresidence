@@ -157,21 +157,6 @@ em {
   font-family: "web-Publico";
 }
 
-.article-type {
-  text-align: center;
-}
-
-.article-type a {
-  visibility: hidden;
-  opacity: 0;
-  color: ;
-}
-
-.tag-1 > .tag-1, .tag-2 > .tag-2, .tag-3 > .tag-3 {
-  visibility: visible;
-  opacity: 1;
-}
-
 .article-type:hover a {
   visibility: visible;
   opacity: 1;
