@@ -233,6 +233,10 @@ nav .article-navigation {
   height: 1.4em;
 }
 
+.pagination {
+  font-size: 1.4em;
+}
+
 /*Progressive Enhancements*/
 @media screen and (min-width: 40em) {
   body {
